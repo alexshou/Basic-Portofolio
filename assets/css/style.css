@@ -1,8 +1,7 @@
 body{
 	width:960px;
 	margin-left:200px;
-	background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
-}
+	}
 
 header{
 	float:left;
@@ -28,7 +27,10 @@ nav{
 	padding: 0px 30px 0px 30px;
 	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
 }
+.portfolio{
 
+	padding: 20px 20px 20px 20px;
+}
 .nav1{
 	position:relative;
 	right:-660px;
@@ -42,6 +44,7 @@ li{
 a{
 	text-decoration: none;
 	color:#777777;
+	font-size:18px;
 }
 
 h1{
@@ -57,18 +60,21 @@ h1{
 }
 
 .personal-photo{
+	float:left;
 	margin-top:30px;
 	padding: 30px 25px 0px 30px;
-	float:left;
 }
 
-#container{
+.container{
 	margin-top:30px;
 	width: 960px;
 	height: 800px;
+	background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
 }
-#main-bio{
+.main-bio{
 	width: 650px;
+	color: #777777;
+	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
 }
 
 .text{
@@ -79,9 +85,32 @@ h1{
 	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
 }
 
-#connect{
+
+#connect1{
 	position:relative;
 	top:-480px;
+	right:-700px;
+	background:#ffffff;
+	width: 200px;
+	font-size:25px;
+	margin-top:10px;
+	padding: 20px 30px 20px 30px;
+	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
+}
+#connect2{
+	position:relative;
+	top:-465px;
+	right:-700px;
+	background:#ffffff;
+	width: 200px;
+	font-size:25px;
+	margin-top:10px;
+	padding: 20px 30px 20px 30px;
+	font-family:'Arial','Helvetica Neue',Helvetica,sans-serif;
+}
+#connect3{
+	position:relative;
+	top:-690px;
 	right:-700px;
 	background:#ffffff;
 	width: 200px;
