@@ -3,9 +3,12 @@
 	<head>
 		<meta charset="UTF-8"> 
 		<title> Contact </title>
-		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+		
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+	<!--	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css"> -->
 	</head>
 	<body > 
+	<div class = "head1 clearfix">
 		<header>
 			Xingxian Shou 
 		</header>
@@ -15,39 +18,42 @@
 				<li>
 					<a href="./index.html"> About </a>
 				</li>
+				<li>| </li>
 				<li>
 					<a href="./portfolio.html"> Portfolio </a>
 				</li>
+				<li>  | </li>
 				<li>
 					<a href="./contact.html"> Contact </a>
 				</li>
 			</ul>
 		</nav>
-		<div class = "container">		
-		<section class = "main-bio">
-			<h1> Contact </h1>																					
-			<form action="/action_page.php">
-			  Name:<br>
-			  <input type="text" name="John Smith" value="John Smith" style="width: 570px;" >
-			  <br>
-			  Email:<br>
-			  <input type="text" name="example@gmail.com" value="example@gmail.com" style="width: 570px;">
-			  <br>
-			  <br>
-			  Message:<br>
-			  <input type="text" name="" value="" style="width: 570px; height:200px" >
-			  <br><br>
-			  <input type="submit" value="Submit">
-			</form> 
-        </section>
-				<div id = "connect2"> 
+	 </div>
+
+	
+		<div class = "leftside">	
+			<h1> About me </h1>
+				<div class = "personal-form" >
+					<form action="/action_page.php">
+					  <span> Name: </span>
+					  <input type="text" name="John Smith" value="John Smith" style="width: 542px;" >
+					  <span>Email:</span>
+					  <input type="text" name="example@gmail.com" value="example@gmail.com" style="width: 542px;">
+					  <span>Message:</span>
+					  <input type="text" name="" value="" style="width: 542px; height:180px" >
+					  <br><br>
+					  <input class="submit" type="submit" value="Submit">
+					</form> 
+	   			</div>
+   		</div>
+				<div class = "rightside"> 
 						<div class = "connect-head">  Connect with Me  </div>
 						<a href="https://github.com/alexshou"><img src=".\assets\images\github.jpeg" width=62px height=62px></a>
 						<a href="https://www.linkedin.com/in/xingxian-shou-b538aa1a/"><img src=".\assets\images\linkedin.jpeg" width=62px height=62px></a>
 						<a href="http://stackoverflow.com/users/7886852/alexshou"><img src=".\assets\images\stackoverflow.jpeg" width=55px height=55px></a>
 			    </div>
-			</section>
-		</div>
+			
+		
 	
 
 
